@@ -16,7 +16,7 @@ passwordInput.addEventListener("keyup", (e) => {
     const requirementItem = requirementList[item.index];
     if(isValid) {
       requirementItem.firstElementChild.className = "fa-solid fa-check";
-      requirementItem.classList.add("valid")
+      requirementItem.classList.add("valid");
     }else {
       requirementItem.firstElementChild.className = "fa-solid fa-circle";
     }
